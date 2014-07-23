@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, FibonacciActivity!</string>
+    <string name="app_name">Fibonacci</string>
+    <string name="reverse">切换顺序</string>
+
+</resources>

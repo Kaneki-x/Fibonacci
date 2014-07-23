@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical" >
+    
+    <Button 
+        android:id="@+id/btn_reverse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reverse"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/white"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp" >
+
+            <com.bobo.View.MyListView
+                android:id="@+id/mylistview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_default_round"
+                android:cacheColorHint="#00000000" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
